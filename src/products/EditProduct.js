@@ -37,7 +37,7 @@ export default function EditProduct() {
         e.preventDefault();
         await axios.put(`${EndPoint}/update/${_id}`, product);
         //Redirect to List
-        navegation('/')
+        navegation('/react-mongo')
     };
 
     return (

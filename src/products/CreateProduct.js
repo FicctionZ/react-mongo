@@ -25,7 +25,7 @@ export default function CreateProduct() {
         const EndPoint = API_URL + '/products/create';
         await axios.post(EndPoint, product);
         //Redirect to List
-        navegation('/')
+        navegation('/react-mongo')
     };
 
     return (

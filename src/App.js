@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route exact path='' element={<ProductsList/>}/>
+          <Route exact path='/react-mongo' element={<ProductsList/>}/>
           <Route exact path='/create' element={<CreateProduct />}/>
           <Route exact path='/edit/:_id' element={<EditProduct />}/>
         </Routes>
